@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{9766E0B2-DDAA-4C0B-8EC0-A47589056B66}|Default">
+  <MonoDevelop.Ide.ItemProperties.GenerateShape PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShapeLibrary/Shape.cs">
+    <Files>
+      <File FileName="ShapeLibrary/Shape2D.cs" Line="9" Column="1" />
+      <File FileName="ShapeLibrary/Circle.cs" Line="32" Column="2" />
+      <File FileName="ShapeLibrary/Rectangle.cs" Line="53" Column="14" />
+      <File FileName="ShapeLibrary/Triangle.cs" Line="17" Column="44" />
+      <File FileName="ShapeLibrary/Cuboid.cs" Line="1" Column="1" />
+      <File FileName="ShapeLibrary/Sphere.cs" Line="14" Column="48" />
+      <File FileName="GenerateShape/Program.cs" Line="11" Column="45" />
+      <File FileName="ShapeLibrary/Shape.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab2ShapeGenerator" expanded="True">
+            <Node name="GenerateShape" expanded="True" />
+            <Node name="ShapeLibrary" expanded="True">
+              <Node name="Shape.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

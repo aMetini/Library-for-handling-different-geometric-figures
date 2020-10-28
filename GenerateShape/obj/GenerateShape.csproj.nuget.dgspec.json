@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/GenerateShape.csproj": {}
+  },
+  "projects": {
+    "/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/GenerateShape.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/GenerateShape.csproj",
+        "projectName": "GenerateShape",
+        "projectPath": "/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/GenerateShape.csproj",
+        "packagesPath": "/Users/ambermetini/.nuget/packages/",
+        "outputPath": "/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ambermetini/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/ShapeLibrary.csproj": {
+                "projectPath": "/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/ShapeLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/ShapeLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/ShapeLibrary.csproj",
+        "projectName": "ShapeLibrary",
+        "projectPath": "/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/ShapeLibrary.csproj",
+        "packagesPath": "/Users/ambermetini/.nuget/packages/",
+        "outputPath": "/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ambermetini/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

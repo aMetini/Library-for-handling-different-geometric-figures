@@ -1,0 +1,8 @@
+/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/bin/Debug/netcoreapp3.1/ShapeLibrary.deps.json
+/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/bin/Debug/netcoreapp3.1/ShapeLibrary.dll
+/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/bin/Debug/netcoreapp3.1/ShapeLibrary.pdb
+/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/obj/Debug/netcoreapp3.1/ShapeLibrary.AssemblyInfoInputs.cache
+/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/obj/Debug/netcoreapp3.1/ShapeLibrary.AssemblyInfo.cs
+/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/obj/Debug/netcoreapp3.1/ShapeLibrary.csproj.CoreCompileInputs.cache
+/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/obj/Debug/netcoreapp3.1/ShapeLibrary.dll
+/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/obj/Debug/netcoreapp3.1/ShapeLibrary.pdb

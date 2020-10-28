@@ -1,0 +1,15 @@
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/bin/Debug/netcoreapp3.1/GenerateShape.deps.json
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/bin/Debug/netcoreapp3.1/GenerateShape.runtimeconfig.json
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/bin/Debug/netcoreapp3.1/GenerateShape.runtimeconfig.dev.json
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/bin/Debug/netcoreapp3.1/GenerateShape.dll
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/bin/Debug/netcoreapp3.1/GenerateShape.pdb
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/bin/Debug/netcoreapp3.1/ShapeLibrary.dll
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/bin/Debug/netcoreapp3.1/ShapeLibrary.pdb
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/obj/Debug/netcoreapp3.1/GenerateShape.csprojAssemblyReference.cache
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/obj/Debug/netcoreapp3.1/GenerateShape.AssemblyInfoInputs.cache
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/obj/Debug/netcoreapp3.1/GenerateShape.AssemblyInfo.cs
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/obj/Debug/netcoreapp3.1/GenerateShape.csproj.CoreCompileInputs.cache
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/obj/Debug/netcoreapp3.1/GenerateShape.csproj.CopyComplete
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/obj/Debug/netcoreapp3.1/GenerateShape.dll
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/obj/Debug/netcoreapp3.1/GenerateShape.pdb
+/Users/ambermetini/Projects/Lab2ShapeGenerator/GenerateShape/obj/Debug/netcoreapp3.1/GenerateShape.genruntimeconfig.cache
