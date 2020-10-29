@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using ShapeLibrary;
 using System.Numerics;
 
 namespace ShapeLibrary

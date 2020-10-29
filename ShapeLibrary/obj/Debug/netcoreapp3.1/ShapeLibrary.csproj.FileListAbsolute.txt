@@ -6,3 +6,4 @@
 /Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/obj/Debug/netcoreapp3.1/ShapeLibrary.csproj.CoreCompileInputs.cache
 /Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/obj/Debug/netcoreapp3.1/ShapeLibrary.dll
 /Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/obj/Debug/netcoreapp3.1/ShapeLibrary.pdb
+/Users/ambermetini/Projects/Lab2ShapeGenerator/ShapeLibrary/obj/Debug/netcoreapp3.1/ShapeLibrary.csprojAssemblyReference.cache

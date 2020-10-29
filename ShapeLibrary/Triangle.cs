@@ -12,58 +12,52 @@ namespace ShapeLibrary
         private Vector2 P2;
         private Vector2 P3;
 
-        public override float Circumference { get; }
 
-        public override float Area { get; }
+        private Vector2[] vectArray = new Vector2[3];
+
 
         public override Vector3 Center { get; }
+        public override float Area { get; }
+        public override float Circumference { get; }
+
+
 
         public Triangle(Vector2 p1, Vector2 p2, Vector2 p3)
         {
+            P1 = p1;
+            P2 = p2;
+            P3 = p3;
+
+            vectArray[0] = p1;
+            vectArray[1] = p2;
+            vectArray[2] = p3;
+
+            float side1 = MathF.Sqrt(MathF.Pow((p1.X - p2.X), 2) + MathF.Pow((p1.Y - p2.Y), 2));
+            float side2 = MathF.Sqrt(MathF.Pow((p1.X - p3.X), 2) + MathF.Pow((p1.Y - p3.Y), 2));
+            float side3 = MathF.Sqrt(MathF.Pow((p3.X - p2.X), 2) + MathF.Pow((p3.Y - p2.Y), 2));
+
+
+            Circumference = side1 + side2 + side3;
+
+            Area = MathF.Abs(MathF.Sqrt((Circumference / 2f) * ((Circumference / 2f) - side1) *
+                ((Circumference / 2f) - side2) * ((Circumference / 2f) - side3)));
 
             Center = new Vector3()
             {
-                X = (P1.X + P2.X + P3.X) / 3f,
-                Y = (P1.Y + P2.Y + P3.Y) / 3f,
-                Z = 0.0f
+                X = (p1.X + p2.X + p3.X) / 3f,
+                Y = (p1.Y + p2.Y + p3.Y) / 3f,
             };
 
-            P1.X = p1.X;
-            P1.Y = p1.Y;
-
-            P2.X = p2.X;
-            P2.Y = p2.Y;
-
-            P3.X = p3.X;
-            P3.Y = p3.Y;
-
-
-            Circumference = GetCircumference();
-
-            Area = MathF.Abs(1.0f / 2.0f *
-                (P1.X * (P2.Y - P3.Y)) +
-                (P2.X * (P3.Y - P1.Y)) +
-                (P3.X * (P1.Y - P2.Y)));
-
+            
         }
 
         public override string ToString()
         {
-            return "Triangle @(" + Center.X.ToString("n1") + ", " + Center.Y.ToString("n1") +
-                "): p1 (" + P1.X.ToString("n1") + ", " + P1.Y.ToString("n1") +
-                "), p2 (" + P2.X.ToString("n1") + ", " + P2.Y.ToString("n1") +
-                "), p3 (" + P3.X.ToString("n1") + ", " + P3.Y.ToString("n1") + ")";
-        }
-
-        public float GetCircumference()
-        {
-            float side1 = MathF.Sqrt(MathF.Pow(P1.X - P2.X, 2) + MathF.Pow(P1.Y - P2.Y, 2));
-            float side2 = MathF.Sqrt(MathF.Pow(P2.X - P3.X, 2) + MathF.Pow(P2.Y - P3.Y, 2));
-            float side3 = MathF.Sqrt(MathF.Pow(P3.X - P2.X, 2) + MathF.Pow(P3.Y - P2.Y, 2));
-
-            return side1 + side2 + side3;
+            return
+                $"Triangle @({Center.X:0.0}, {Center.Y:0.0}): p1({P1.X:0.0}, {P1.Y:0.0}), p2({P2.X:0.0}, {P2.Y:0.0}), p3({P3.X:0.0}, {P3.Y:0.0})";
 
         }
+
 
         public IEnumerator<Vector2> GetEnumerator()
         {

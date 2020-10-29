@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace ShapeLibrary
 {
     public abstract class Shape2D : Shape
