@@ -3,13 +3,13 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="ShapeLibrary/Shape.cs">
     <Files>
       <File FileName="ShapeLibrary/Shape2D.cs" Line="10" Column="1" />
-      <File FileName="ShapeLibrary/Circle.cs" Line="32" Column="2" />
-      <File FileName="ShapeLibrary/Rectangle.cs" Line="64" Column="2" />
-      <File FileName="ShapeLibrary/Triangle.cs" Line="61" Column="1" />
-      <File FileName="ShapeLibrary/Cuboid.cs" Line="73" Column="1" />
-      <File FileName="ShapeLibrary/Sphere.cs" Line="14" Column="48" />
-      <File FileName="GenerateShape/Program.cs" Line="13" Column="45" />
-      <File FileName="ShapeLibrary/Shape.cs" Line="2" Column="1" />
+      <File FileName="ShapeLibrary/Circle.cs" />
+      <File FileName="ShapeLibrary/Rectangle.cs" />
+      <File FileName="ShapeLibrary/Triangle.cs" />
+      <File FileName="ShapeLibrary/Cuboid.cs" />
+      <File FileName="ShapeLibrary/Sphere.cs" />
+      <File FileName="GenerateShape/Program.cs" />
+      <File FileName="ShapeLibrary/Shape.cs" Line="94" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
